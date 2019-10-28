@@ -8,8 +8,22 @@
 </head>
 <body>
   <script>
-    var a = 123
-    console.log(a);
+ 
+    // GO{
+    //   global:undefined, 100
+    //   fn:function(){}
+    // }
+    var global = 100;
+    function fn (){
+      console.log(global);//undefined
+      global = 200;
+      console.log(global);//200
+      var global = 300
+    }
+    // AO{
+    //   global:undefined,200,300
+
+    // }
   </script>
 </body>
 </html>
