@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <label for="touchstart">touchstart:</label>
+    <span id="touchstart"></span>
+  </div>
+  <div>
+    <label for="touchend">touchend:</label>
+    <span id="touchend"></span>
+  </div>
+  <div>
+    <label for="click">click:</label>
+    <span id="click"></span>
+    <div>
+      <div id="test">开始检测</div>
+      <div id="diff">计算时间</div>
+    </div>
+  </div>
+  <script>
+    var test = document.getElementById('test');
+    var diff = document.getElementById('diff');
+    var touchstart = document.getElementById('touchstart');
+    var touchend = document.getElementById('touchend');
+    var click = document.getElementById('click');
+  </script>
+</body>
+
+</html>
